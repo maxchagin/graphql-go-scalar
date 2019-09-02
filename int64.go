@@ -48,7 +48,7 @@ func coerceInt64(value interface{}) interface{} {
 	}
 }
 
-// Int64 кастомный тип для int64
+// Int64 custom scalar type int64
 var Int64 = graphql.NewScalar(graphql.ScalarConfig{
 	Name:        "Int64",
 	Description: "The `Int64` scalar type for int64",
